@@ -1,11 +1,9 @@
+# этот скрипт можно запустить просто из вскода
 directory_name$ = "C:\Users\Ivan\Desktop\AI\0_Dissertation\emo_audio\"
 
-# Создаём список файлов и получаем его размер
 Create Strings as file list... fileList 'directory_name$'/*.wav
 numberOfFiles = Get number of strings
-
 for ifile to numberOfFiles
-    # когда пишешь скрипты в праате, нужно просто представлять, что ты словами описываешь действия в gui
     select Strings fileList
     fileName$ = Get string... ifile
     Read from file... 'directory_name$''fileName$'
