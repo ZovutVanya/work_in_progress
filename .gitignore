@@ -1,6 +1,5 @@
 data/
 transcriptions.txt
 playground.ipynb
-hf/
-embeddings_ml.ipynb
 needed_audio.txt
+hf/
