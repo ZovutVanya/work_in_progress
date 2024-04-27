@@ -1,5 +1,5 @@
 # этот скрипт можно запустить просто из вскода
-directory_name$ = "C:\Users\Ivan\Desktop\AI\0_Dissertation\emo_audio\"
+directory_name$ = "C:\Users\Ivan\Desktop\AI\0_Dissertation\emo_audio2\"
 
 Create Strings as file list... fileList 'directory_name$'/*.wav
 numberOfFiles = Get number of strings
